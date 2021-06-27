@@ -1,4 +1,4 @@
-from tasks.dict_tasks.check_in import check_in
+from tasks.dict_tasks.check_in_dict import check_in
 
 
 def test_check_in(new_dict):

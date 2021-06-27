@@ -1,4 +1,4 @@
-from tasks.set_tasks.check_in import check_in
+from tasks.set_tasks.check_in_set import check_in
 
 
 def test_check_in(new_set):
