@@ -10,7 +10,7 @@
 
 def is_superset(set_1: set, set_2: set) -> bool:
     # TODO вставить код сюда
-    result = None
+    result = set_1.issuperset(set_2)
     return result
 
 

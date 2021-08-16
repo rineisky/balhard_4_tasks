@@ -7,7 +7,9 @@
 
 
 def common_elements(list_1: list, list_2) -> set:
-    result = None
+    list_1 = set(list_1)
+    list_1.intersection_update(set(list_2))
+    result = list_1
     # TODO вставить код сюда
     return result
 
