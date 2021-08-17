@@ -11,8 +11,7 @@ from typing import Any
 
 def get_or_set(collection: dict, key: Any) -> Any:
     # TODO вставить код сюда
-    result = None
-    return result
+    return collection.setdefault(key, 3)
 
 
 if __name__ == '__main__':

@@ -8,8 +8,10 @@
 
 def has_common(set_1: set, set_2: set) -> bool:
     # TODO вставить код сюда
-    result = None
-    return result
+    if set_2.isdisjoint(set_1):
+        return False
+    else:
+        return True
 
 
 if __name__ == '__main__':

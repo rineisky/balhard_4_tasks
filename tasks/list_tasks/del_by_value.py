@@ -9,6 +9,7 @@ shopping_list = ["молоко", "сметана", "сыр"]
 
 def del_by_value(collection: list, value: str) -> list:
     # TODO вставить код сюда
+    collection.pop(collection.index(value))
     return collection
 
 

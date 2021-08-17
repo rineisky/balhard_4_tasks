@@ -19,6 +19,7 @@ log = {
 
 def clear_dict(log_dict: dict) -> dict:
     # TODO вставить код сюда
+    dict.clear(log_dict)
     return log_dict
 
 

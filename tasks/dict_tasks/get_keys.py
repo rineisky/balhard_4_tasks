@@ -15,8 +15,7 @@ WORKERS = {
 
 def get_workers_names(workers: dict):
     # TODO вставить код сюда
-    result = None
-    return result
+    return workers.keys()
 
 
 if __name__ == '__main__':

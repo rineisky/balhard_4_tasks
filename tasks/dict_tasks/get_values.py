@@ -7,8 +7,7 @@
 
 def get_values(collection: dict):
     # TODO вставить код сюда
-    result = None
-    return result
+    return collection.values()
 
 
 if __name__ == '__main__':

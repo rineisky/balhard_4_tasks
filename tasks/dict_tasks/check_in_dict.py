@@ -34,8 +34,7 @@ USERS = {
 
 def check_in(users: dict, key: Any) -> bool:
     # TODO вставить код сюда
-    result = None
-    return result
+    return key in users
 
 
 if __name__ == '__main__':
