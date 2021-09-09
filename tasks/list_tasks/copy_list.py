@@ -23,7 +23,8 @@ user_data_template = [
 
 
 def copy_list(collection: list) -> list:
-    # TODO вставить код сюда
+    from copy import copy
+    collection = copy(collection)
     collection_copy = collection
     return collection_copy
 
