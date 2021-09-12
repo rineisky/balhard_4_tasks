@@ -6,12 +6,14 @@
 Имеется список посетителей. Чтобы подозвать человека к окошку - нужно удалить
 последнего посетителя из списка и вернуть его номерок
 """
+
+
 client_list = [123, 321, 213]
 
 
 def del_last(collection: list) -> int:
-    # TODO вставить код сюда
-    result = None
+
+    result = collection.pop()
     return result
 
 
