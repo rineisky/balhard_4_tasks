@@ -11,7 +11,7 @@
 add_by_index(todo_list, 0, 'Купить продукты') -> ['Купить продукты']
 add_by_index(todo_list, 1, 'Вынести мусор') -> ['Купить продукты', 'Вынести мусор']
 add_by_index(todo_list, 1, 'Приготовить поесть') -> ['Купить продукты', 'Приготовить поесть', 'Вынести мусор']
-add_by_index(todo_list, 0, 'Сделать зарядку') -> ['Сделать зарядку', 'Купить продукты', 'Приготовить поесть', 'Вынести мусор']
+add_by_index(todo_list, 0, 'Сделать зарядку') -> ['Сделать зарядку', 'Купить продукты', 'Приготовить поесть']
 """
 todo_list = []
 
@@ -19,13 +19,13 @@ todo_list = []
 def add_by_index(td_list: list, index: int, element: str) -> list:
     """
     Добавляет element в ed_list по индексу index
-
     :param td_list: список дел
     :param index: индекс задачи
     :param element: задача
     :return: список дел
     """
-    # TODO вставить код сюда
+
+    td_list.insert(index, element)
     return td_list
 
 
