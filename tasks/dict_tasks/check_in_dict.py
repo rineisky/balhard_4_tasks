@@ -1,3 +1,4 @@
+from typing import Any
 """
 ЗАДАНИЕ
 --------------------------------------------------------------------------------
@@ -16,7 +17,6 @@
 check_in('no_way') -> False
 check_in('GroveGang') -> True
 """
-from typing import Any
 
 USERS = {
     'hateSwimming': {
@@ -33,8 +33,7 @@ USERS = {
 
 
 def check_in(users: dict, key: Any) -> bool:
-    # TODO вставить код сюда
-    result = None
+    result = key in users
     return result
 
 
