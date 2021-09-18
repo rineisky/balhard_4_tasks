@@ -8,7 +8,8 @@ shopping_list = ["молоко", "сметана", "сыр"]
 
 
 def del_by_num(collection: list, num: int) -> list:
-    del shopping_list[num]
+    [num] = [num-1]
+    del collection[num]
     return collection
 
 
