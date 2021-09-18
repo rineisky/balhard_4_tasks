@@ -1,3 +1,4 @@
+
 """
 ЗАДАНИЕ
 --------------------------------------------------------------------------------
@@ -7,7 +8,7 @@
 
 
 def sym_diff_update(set_1: set, set_2: set) -> set:
-    # TODO вставить код сюда
+    set_1.symmetric_difference_update(set_2)
     return set_1
 
 
