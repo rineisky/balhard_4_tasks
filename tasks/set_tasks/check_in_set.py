@@ -8,8 +8,7 @@ from typing import Any
 
 
 def check_in(collection: set, element: Any) -> bool:
-    # TODO вставить код сюда
-    result = None
+    result = element in collection
     return result
 
 
