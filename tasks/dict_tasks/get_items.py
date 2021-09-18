@@ -15,8 +15,7 @@ WORKERS = {
 
 
 def get_workers(workers: dict):
-    # TODO вставить код сюда
-    result = None
+    result = workers.items()
     return result
 
 
