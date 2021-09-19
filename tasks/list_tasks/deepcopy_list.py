@@ -12,6 +12,7 @@
 """
 
 from copy import deepcopy
+
 user_data = {
     "name": None,
     "surname": None
