@@ -11,8 +11,9 @@ from typing import Any
 
 def get_or_set(collection: dict, key: Any) -> Any:
     # TODO вставить код сюда
-    result = None
-    return result
+    result = collection.get(key, 3)
+    collection.update({key: result})
+    return collection.get(key)
 
 
 if __name__ == '__main__':

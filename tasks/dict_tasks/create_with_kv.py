@@ -26,6 +26,9 @@ users = {}
 
 def save_user(users_list: dict, user_data: dict) -> dict:
     # TODO вставить код сюда
+    copy_dict = user_data.copy()
+    copy_dict.pop("login")
+    users_list.update({user_data["login"]: copy_dict})
     return users_list
 
 
