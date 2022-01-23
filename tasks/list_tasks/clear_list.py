@@ -26,7 +26,7 @@ def clear_list(collection: list) -> list:
     :param collection: список для очищения
     :return: очищенный список
     """
-    # TODO вставить код сюда
+    collection.clear()
     return collection
 
 
