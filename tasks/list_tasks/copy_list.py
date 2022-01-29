@@ -10,12 +10,16 @@
 
 (Нужно вернуть поверхностную копию данных)
 """
+
+# import copy
+# from typing import List, Dict
+
 department = {
     "name": "IT",
     "head": "Marina"
 }
 
-user_data_template = [
+user_data_template: list[str | dict[str, str]] = [
     "Не указано",
     "Не указано",
     department
@@ -23,9 +27,8 @@ user_data_template = [
 
 
 def copy_list(collection: list) -> list:
-    # TODO вставить код сюда
-    collection_copy = collection
-    return collection_copy
+    new_list = collection.copy()
+    return new_list
 
 
 if __name__ == '__main__':
