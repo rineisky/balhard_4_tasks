@@ -22,8 +22,8 @@ PRODUCTS = {
 
 
 def products_num(database: dict) -> int:
-    # TODO написать код ниже
-    result = None
+    products_num = len(database)
+    result = products_num
     return result
 
 
