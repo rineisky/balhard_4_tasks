@@ -10,8 +10,7 @@ client_list = [123, 321, 213]
 
 
 def del_last(collection: list) -> int:
-    # TODO вставить код сюда
-    result = None
+    result = collection.pop()
     return result
 
 
