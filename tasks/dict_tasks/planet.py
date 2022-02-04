@@ -22,7 +22,8 @@ get_planet_name(3) -> 'Земля'
 
 
 def get_planet_name(planet_num: int) -> str:
-    result = None
+    some_dict = {1: "Меркурий", 2: "Венера", 3: "Земля", 4: "Марс", 5: "Юпитер", 6: "Сатурн", 7: "Уран", 8: "Нептун"}
+    result = some_dict.get(planet_num)
     return result
 
 
