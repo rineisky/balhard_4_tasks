@@ -6,7 +6,7 @@
 
 
 def copy_set(collection: set) -> set:
-    # TODO вставить код сюда
+    collection = collection.copy()
     collection_copy = collection
     return collection_copy
 
