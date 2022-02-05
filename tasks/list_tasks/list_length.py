@@ -15,8 +15,8 @@ user_list = [
 
 
 def list_length(collection: list) -> int:
-    # TODO написать код ниже
-    result = None
+
+    result = len(collection)
     return result
 
 
