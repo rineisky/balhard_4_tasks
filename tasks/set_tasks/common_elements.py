@@ -6,9 +6,12 @@
 """
 
 
-def common_elements(list_1: list, list_2) -> set:
-    # TODO вставить код сюда
-    result = None
+def common_elements(list_1: list, list_2: list) -> set:
+
+    set_1 = set(list_1)
+    set_2 = set(list_2)
+    some_set = set_1.union(set_2)
+    result = some_set
     return result
 
 
