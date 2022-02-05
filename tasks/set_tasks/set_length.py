@@ -6,8 +6,8 @@
 
 
 def set_length(collection: set) -> int:
-    # TODO написать код ниже
-    result = None
+    collection = len(collection)
+    result = collection
     return result
 
 
