@@ -13,8 +13,8 @@ pages = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
 
 def get_first_3_last_3(collection: list) -> tuple:
     # TODO вставить код ниже
-    first_3 = None
-    last_3 = None
+    first_3 = collection[:3]
+    last_3 = collection[-3:]
     return first_3, last_3
 
 

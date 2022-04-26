@@ -26,6 +26,7 @@ def add_by_index(td_list: list, index: int, element: str) -> list:
     :return: список дел
     """
     # TODO вставить код сюда
+    td_list.insert(index, element)
     return td_list
 
 
