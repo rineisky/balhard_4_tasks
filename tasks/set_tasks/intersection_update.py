@@ -8,6 +8,7 @@
 
 def intersection_update(set_1: set, set_2: set) -> set:
     # TODO вставить код сюда
+    set.intersection_update(set_1, set_2)
     return set_1
 
 

@@ -15,7 +15,7 @@ WORKERS = {
 
 def get_workers_names(workers: dict):
     # TODO вставить код сюда
-    result = None
+    result = workers.keys()
     return result
 
 

@@ -7,7 +7,7 @@
 
 def get_unique_in_list(some_list: list) -> set:
     # TODO вставить код сюда
-    result = None
+    result = set.union(set(some_list))
     return result
 
 
